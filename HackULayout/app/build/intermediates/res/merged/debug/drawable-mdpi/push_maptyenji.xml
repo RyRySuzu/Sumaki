@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/p_maptyenji"
+          android:state_pressed="true" />
+    <item android:drawable="@drawable/maptyenji"
+          android:state_focused="true" />
+    <item android:drawable="@drawable/maptyenji" />
+</selector><!-- From: file:/C:/Users/yamamoto/Desktop/HackULayout/app/src/main/res/drawable-mdpi/push_maptyenji.xml -->

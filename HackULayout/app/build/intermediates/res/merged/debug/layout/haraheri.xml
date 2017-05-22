@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/siro"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:background="@drawable/sensita"
+            android:id="@+id/TestWeight"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_weight="0.88"
+                android:layout_height="fill_parent"
+                android:background="#00000000"/>
+
+            <TextView
+                android:id="@+id/physique"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Physique"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="#00000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge">
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/height"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Height"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/setheight"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.6"
+                            android:layout_height="wrap_content"
+                            android:text="000"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/y_height"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/yrogos"/>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.3"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/high"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge">
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/shoulder"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Shoulder"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/setshoulder"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.6"
+                            android:layout_height="wrap_content"
+                            android:text="000"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/y_shoulder"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/yrogos"/>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.3"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <TextView
+                            android:id="@+id/sleeve"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Sleeve"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/setsleeve"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.6"
+                            android:layout_height="wrap_content"
+                            android:text="000"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/y_sleeve"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/yrogos"/>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.3"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <TextView
+                            android:id="@+id/dress"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Dress"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/setdress"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.6"
+                            android:layout_height="wrap_content"
+                            android:text="000"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/y_dress"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/yrogos"/>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.3"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:id="@+id/okuyuki"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <TextView
+                            android:id="@+id/waste"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Waste"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/setwaste"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.6"
+                            android:layout_height="wrap_content"
+                            android:text="000"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/y_waste"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/yrogos"/>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.3"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <TextView
+                            android:id="@+id/inseam"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Inseam"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/setinserm"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.6"
+                            android:layout_height="wrap_content"
+                            android:text="000"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/y_inserm"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/yrogos"/>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.3"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <!--おしり-->
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <TextView
+                            android:id="@+id/hip"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="hip"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/sethip"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.6"
+                            android:layout_height="wrap_content"
+                            android:text="000"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/y_hip"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/yrogos"
+                            android:layout_height="wrap_content"/>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.3"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                        <TextView
+                            android:id="@+id/thight"
+                            android:layout_width="0dip"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Inseam"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/setthight"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.6"
+                            android:layout_height="wrap_content"
+                            android:text="000"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/y_thight"
+                            android:layout_width="0dip"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/yrogos"/>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_weight="0.3"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@drawable/senue"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_weight="0.2"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                    <Button
+                        android:id="@+id/risou"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Ideal type"
+                        android:background="@drawable/button"
+                        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_weight="0.2"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/start"
+                        android:layout_width="0dip"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="Let`s start"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:background="@drawable/button"/>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_weight="0.2"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:orientation="vertical">
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>
+
+<!-- From: file:/C:/Users/yamamoto/Desktop/HackULayout/app/src/main/res/layout/haraheri.xml -->

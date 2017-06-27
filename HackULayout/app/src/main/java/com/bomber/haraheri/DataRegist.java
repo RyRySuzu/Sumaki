@@ -1,4 +1,4 @@
-package com.bomber.haraheri.test;
+package com.bomber.haraheri;
 
 import android.os.Bundle;
 import android.view.View;
@@ -42,8 +42,13 @@ LocationListener, OnClickListener {
     
     private SensorManager manager;
     private Camera myCamera;
-    private Button touroku = null; // 結果画面表示ボタン
-    private Button map = null; // マップに戻るボタン
+    
+    // 結果画面表示ボタン
+    private Button touroku = null;
+    
+    // マップに戻るボタン
+    private Button map = null;
+    
     private static final long standTime = 2000;
     private static long ClickTime;
     
@@ -109,12 +114,14 @@ LocationListener, OnClickListener {
     float lat0, long0;
     float get_tyousei;
     float O_0_houi;
-    //float allwaste2;
+    
     float r;
     float Δlat, Δlong;
-    float d; // 自分のところから建物の右角度まで
-    float e; // 自分のところから建物の左角度まで
-    float f;// 奥行で自分のところから右角度見
+    
+    float d;
+    float e;
+    float f;
+    
     float sum1;
     float sum2;
     float sum3;
@@ -291,8 +298,6 @@ public void onCreate(Bundle savedInstanceState)
 
 final Context context = this;
 
-//get_id = JintoriGame.ValueA();
-//stature = JintoriGame.stature();
 stature = "158";
 Mystature = Float.valueOf(stature).floatValue();
 Mystature2 = (Mystature-30)/100;
@@ -1352,9 +1357,11 @@ O_yokohaba = yokohaba;
 }
 
 Intent intent = new Intent(this, Result.class);
+
 // 画面呼び出し
 startActivity(intent);
 limit = 0;
+
 // 自画面終了
 this.finish();
 
@@ -1363,6 +1370,7 @@ case R.id.end:
 // メニューボタン押下
 // Intentオブジェクト生成
 Intent intent1 = new Intent(this, Result.class);
+
 // 画面呼び出し
 startActivity(intent1);
 limit = 1;

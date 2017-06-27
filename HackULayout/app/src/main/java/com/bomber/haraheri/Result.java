@@ -1,5 +1,4 @@
-
-package com.bomber.haraheri.test;
+package com.bomber.haraheri;
 
 import java.math.BigDecimal;
 
@@ -95,17 +94,13 @@ public class Result extends Activity {
         // ステータスバーを消す
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
-        // final Toast ts = Toast.makeText(this, "建物を撮影する事で５人の命を救いました！！",
-        // Toast.LENGTH_LONG);
 
         setContentView(R.layout.haraheri);
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         final Context readcon = this;
         final Context writecon = this;
-
-
-        // WindowManager wm = (WindowManager)getSystemService(WINDOW_SERVICE);
+        
         final DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
         // ピクセル数（width, height）を取得する

@@ -1,4 +1,4 @@
-package com.bomber.haraheri.test;
+package com.bomber.haraheri;
 
 import java.math.BigDecimal;
 
@@ -44,7 +44,6 @@ public class Bomber extends Activity {
     int yane_point;
     int cast_Tourokusoukei;
     
-    // ただのループカウンター
     int k = 0;
     int n = 0;
     
@@ -70,7 +69,6 @@ public class Bomber extends Activity {
     
     double nn = 10000;
     
-    //  static String Sundaytime = "15";
     static String shouldersize = "0";
     static String dresssize = "0";
     static String sleevesize = "0";
@@ -88,7 +86,7 @@ public class Bomber extends Activity {
     
     
     
-    　　 //理想体型計算
+    //理想体型計算
     double T_waste = height * 0.37;
     double T_hip = height * 0.53;
     double T_futomomo = height * 0.3;
@@ -243,15 +241,8 @@ public class Bomber extends Activity {
         });
         
         
-        
-        
-        
-        
     }
-    
-    
-    
-    
+
     
     public static float get_size(float size) {
         float tyousei_2;
